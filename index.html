@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>EnglishExcellence</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="./index.html"
+          >english<span class="logo-accent">excellence</span>.</a
+        >
+        <nav class="main-navigation">
+          <ul class="site-nav">
+            <li class="nav-item">
+              <a class="nav-link current" href="./index.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Our lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Teachers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-social">
+          <li class="header-social-item">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="header-social-link"
+              ><svg class="social-icon">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-item">
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              class="header-social-link"
+              ><svg class="social-icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="header-social-item">
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              class="header-social-link"
+              ><svg class="social-icon">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-menu-icon">
+            <use xlink:href="./images/icons.svg#mobile-menu-icon"></use>
+          </svg>
+          <svg class="tablet-menu-icon">
+            <use xlink:href="./images/icons.svg#tablet-menu-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <!-- End of Header -->
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="modal-close-icon">
+          <use xlink:href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu-container">
+        <ul class="mobile-menu">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./index.html">About us</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./index.html">Our lessons</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./index.html">Teachers</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./index.html">Reviews</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="./index.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="mobile-menu-social">
+        <li class="mobile-menu-social-item">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="mobile-menu-social-link"
+            ><svg class="social-icon">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-social-item">
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+            class="mobile-menu-social-link"
+            ><svg class="social-icon">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-menu-social-item">
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="mobile-menu-social-link"
+            ><svg class="social-icon">
+              <use href="./images/icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End of Mobile menu -->
+    <main class="content">
+      <!-- Hero -->
+      <section class="hero-section">
+        <div class="hero-background">
+        <div class="container hero-container">
+          
+          <h1 class="hero-title">
+            Discover the joy of learning
+            <span class="hero-accent">English</span> with us!
+          </h1>
+          <button type="button" class="button hero-button">
+            Leave an application
+          </button>
+          <button class="scroll-down-btn">
+            <svg class="icon-down-arrow">
+              <use xlink:href="./images/icons.svg#icon-down-arrow"></use>
+            </svg>
+          </button>
+        </div>
+        </div>
+      </section>
+      <!-- End of Hero -->
+      <!-- About us -->
+      <section class="about-section">
+        <div class="container about-container">
+          <h2 class="section-title about-title">
+            About <span class="accent">us</span>
+          </h2>
+          <p class="text about-text">
+            We are dedicated to providing engaging and effective English
+            language courses in a supportive and stimulating learning
+            environment
+          </p>
+          <div class="about-wrap">
+            <ul class="about-list">
+              <li class="about-item">
+                <h3 class="about-number">01</h3>
+                <p class="about-description">
+                  Expert, innovative teaching staff
+                </p>
+              </li>
+              <li class="about-item">
+                <h3 class="about-number">02</h3>
+                <p class="about-description">
+                  Wide range of course levels and options
+                </p>
+              </li>
+              <li class="about-item">
+                <h3 class="about-number">03</h3>
+                <p class="about-description">
+                  Multicultural learning environment
+                </p>
+              </li>
+              <li class="about-item">
+                <h3 class="about-number">04</h3>
+                <p class="about-description">
+                  Comprehensive language support services
+                </p>
+              </li>
+            </ul>
+            <div class="about-emoji">
+              <img src="./images/about-emoji.png" alt="smilling emoji" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of About us -->
+      <!-- Our lessons -->
+      <section class="lessons-section">
+        <div class="container lessons-container">
+          <h2 class="section-title lessons-section-title">
+            Our <span class="accent">lessons</span>
+          </h2>
+          <p class="text lessons-text">
+            Our lessons are carefully structured and interactive, designed to
+            promote rapid language acquisition through practical tasks and
+            real-world scenarios
+          </p>
+          <ul class="lessons-list">
+            <li class="lessons-item">
+              <h3 class="lessons-title">Practice</h3>
+              <p class="lessons-price">40$ / month</p>
+              <p class="text lessons-text">
+                This plan offers an opportunity for learners to engage in
+                collaborative language exercises and group activities, boosting
+                their conversational skills and confidence in using English.
+              </p>
+              <button type="button" class="button lessons-button">
+                Leave an application
+              </button>
+            </li>
+            <li class="lessons-item active-lesson">
+              <h3 class="lessons-title">Standard</h3>
+              <p class="lessons-price">70$ / month</p>
+              <p class="text lessons-text">
+                Our standard package provides a balanced learning approach that
+                covers all key areas of English language - reading, writing,
+                listening, and speaking. It is a set of basic knowledge and
+                skills.
+              </p>
+              <button type="button" class="button lessons-button">
+                Leave an application
+              </button>
+            </li>
+            <li class="lessons-item">
+              <h3 class="lessons-title">Individual</h3>
+              <p class="lessons-price">99$ / month</p>
+              <p class="text lessons-text">
+                We offer a tailored learning experience with individualized
+                instruction that focuses on a learner's specific language goals
+                and challenges, offering personal feedback.
+              </p>
+              <button type="button" class="button lessons-button">
+                Leave an application
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End of Our lessons -->
+      <!-- Proposal -->
+
+      <section class="proposal-section">
+        <div class="container proposal-container">
+          <h2 class="section-title proposal-title">
+            Master the <span class="accent">Language</span> with Our English
+            Package!
+          </h2>
+          <div class="proposal-card-container">
+            <div class="background background-right"></div>
+            <div class="background background-left"></div>
+            <div class="proposal-card">
+              <h3 class="proposal-card-title">Power of English</h3>
+              <ul class="proposal-list">
+                <li class="proposal-item">
+                  <div class="proposal-icon-container">
+                    <svg class="icon-check">
+                      <use xlink:href="./images/icons.svg#icon-check"></use>
+                    </svg>
+                  </div>
+                  <p class="text proposal-text">
+                    Dive into captivating lessons designed to stimulate your
+                    curiosity.
+                  </p>
+                </li>
+                <li class="proposal-item">
+                  <div class="proposal-icon-container">
+                    <svg class="icon-check">
+                      <use xlink:href="./images/icons.svg#icon-check"></use>
+                    </svg>
+                  </div>
+                  <p class="text proposal-text">
+                    Learn in a nurturing setting where every student's progress
+                    matters.
+                  </p>
+                </li>
+                <li class="proposal-item">
+                  <div class="proposal-icon-container">
+                    <svg class="icon-check">
+                      <use xlink:href="./images/icons.svg#icon-check"></use>
+                    </svg>
+                  </div>
+                  <p class="text proposal-text">
+                    Experience the satisfaction of real progress as your
+                    language skills and confidence grow with every session.
+                  </p>
+                </li>
+              </ul>
+              <button type="button" class="button proposal-button">
+                Leave an application
+              </button>
+              <img src="./images/book-stack.png" alt="stack of books" class="proposal-img">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End of Proposal -->
+    </main>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
+  </body>
+</html>
